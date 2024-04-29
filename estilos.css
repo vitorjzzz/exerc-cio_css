@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    color: aliceblue;
+}
+body{
+    font-family: "Poppins",sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, #000000, #4b016d);
+}
+.cabecalho{   
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px 15px;
+}
+header li{
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 1266px;
+    margin: 0 auto;
+}
+.articless {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.articless article img{
+    height: 200px;
+}
+.articless article {
+    width: 30%;
+}
+.articless article h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+.articless article a {
+   background-color: none;
+   color: aliceblue;
+   padding: 8px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: bold;
+   margin-top: 8px;
+}
+.articless article a:hover{
+   text-decoration: underline;
+   transition: 0.3;
+   border: 8px;
+}
+#valorant{
+    color: rgb(255, 255, 255);
+}
+#lol{ 
+    color: rgb(255, 255, 255);
+}
